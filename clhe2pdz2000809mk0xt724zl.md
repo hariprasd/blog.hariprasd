@@ -2,7 +2,7 @@
 title: "Design System 101 - Everything about it"
 datePublished: Sun May 07 2023 23:56:55 GMT+0000 (Coordinated Universal Time)
 cuid: clhe2pdz2000809mk0xt724zl
-slug: design-system-101-everything-about-it
+slug: design-system-101
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/g45iYq7eQR4/upload/e24c3f67d7a93158d1d71ce298fe2866.jpeg
 tags: design, best-practices, art, design-systems
 
