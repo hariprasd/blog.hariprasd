@@ -4,6 +4,7 @@ datePublished: Sun May 07 2023 23:56:55 GMT+0000 (Coordinated Universal Time)
 cuid: clhe2pdz2000809mk0xt724zl
 slug: design-system-101
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/g45iYq7eQR4/upload/e24c3f67d7a93158d1d71ce298fe2866.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1683505321499/c432095d-5cca-4770-a9eb-5a28225950c0.jpeg
 tags: design, best-practices, art, design-systems
 
 ---
