@@ -12,7 +12,7 @@ We will be creating a NextJs component that receives a string as a prop & animat
 
 As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a letter-by-letter **slide-in animation**
 
-### Component Structure
+### Animated Text Component Structure
 
 1. **Letters Reference**: The `lettersRef` is created using the `useRef` hook to store references to the individual letter elements in the text.
     
@@ -24,15 +24,13 @@ As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a lette
         
 3. **Rendering Animated Text**: The component renders the animated text.
     
-    * It splits the input `text` into individual letters and maps over them.
+    * We split the input `text` into an array of individual letters and maps over them.
         
     * Each letter is wrapped in a `motion.h1` element, making use of Framer Motion for animation.
         
     * The animation includes initial opacity and y-position, and a delay is applied to each letter for a staggered entrance effect.
         
-    * The `exit` transition is defined to control how the letters disappear.
-        
-    * A reference to the DOM element for each letter is stored in the `lettersRef` using the `ref` attribute.
+    * The `exit` transition is defined to control how the letters disappear while it gets unmounted
         
 4. **Export**: The `AnimatedText` component is exported for use in other parts of the application.
     
@@ -88,7 +86,7 @@ As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a lette
                         }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className="text-4xl inline-block anim-fst lg:text-8xl whitespace-nowrap"
+                        className="text-4xl inline-block transition-all duration-100 delay-[-30ms] lg:text-8xl whitespace-nowrap"
                         ref={(el) => (lettersRef.current[index] = el)}
                     >
                         {letter} 
@@ -99,7 +97,6 @@ As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a lette
     };
     
     export default AnimatedText;
- 
 ```
 
 Thanks for visiting this blog, Feel free to reach me for creating Modern Interactive Web development projects , Visit my portfolio - [Hariprasad](https://hariprasd.me) and my [Design agency](https://devignx.tech)
