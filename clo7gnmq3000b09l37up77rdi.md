@@ -99,4 +99,17 @@ As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a lette
     export default AnimatedText;
 ```
 
-Thanks for visiting this blog, Feel free to reach me for creating Modern Interactive Web development projects , Visit my portfolio - [Hariprasad](https://hariprasd.me) and my [Design agency](https://devignx.tech)
+### Usage
+
+```javascript
+import AnimatedText from '../path-to-the-component'
+const App = () => {
+    return(
+        <main>
+            <AnimatedText text={'Devignx Studio'}/>
+        </main>
+    )
+}
+```
+
+Thanks for visiting this blog, Feel free to reach me for creating Modern Interactive Web development projects, Visit my portfolio - [Hariprasad](https://hariprasd.me) and my [Design agency](https://devignx.tech)
