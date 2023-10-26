@@ -10,6 +10,8 @@ tags: typography, reactjs, nextjs, framer-motion, interaction-design
 
 We will be creating a NextJs component that receives a string as a prop & animates it, Code below 👇
 
+Note: Use Variable fonts to get seamless animation. Mona Sans is used for this [example](https://devignx.tech)
+
 As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a letter-by-letter **slide-in animation**
 
 ### Animated Text Component Structure
