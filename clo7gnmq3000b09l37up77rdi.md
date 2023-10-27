@@ -84,17 +84,17 @@ As a bonus, We will be using **Framer motion & Tailwind CSS** to trigger a lette
                         animate={{
                             opacity: 1,
                             y: 0,
-                            transition: { duration: 0.8, delay: index * 0.1 },
+                            transition: { duration: 0.8, delay: index * 0.1 }, {/*creating a staggered slide-in effect*/}
                         }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className="text-4xl inline-block transition-all duration-100 delay-[-30ms] lg:text-8xl whitespace-nowrap"
+                        className="inline-block transition-all duration-100 delay-[-30ms] whitespace-nowrap"
                         ref={(el) => (lettersRef.current[index] = el)}
                     >
                         {letter} 
                     </motion.h1>
                 ))}
-            </div>
+            </AnimatePresence>
         );
     };
     
