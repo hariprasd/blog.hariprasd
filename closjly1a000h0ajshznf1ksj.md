@@ -3,7 +3,7 @@ title: "Smooth Scrolling : Navigating the Challenges"
 seoTitle: "Achieve smooth scrolling in React, Easy plugin"
 datePublished: Fri Nov 10 2023 11:36:51 GMT+0000 (Coordinated Universal Time)
 cuid: closjly1a000h0ajshznf1ksj
-slug: smooth-scrolling-navigating-the-challenges
+slug: achieve-smooth-scrolling-in-react
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/q7ZN1xxtniM/upload/430ee884fadb8576580f95389e01270c.jpeg
 tags: reactjs, nextjs, smoothscrolling, lenis, smooth
 
